@@ -3,3 +3,30 @@
 }
 
 /* Add your own CSS code below */
+.countries--first > .country--brazil {
+  order: 1;
+}
+
+/*brazil & uganda in 2nd list are given positive values so both at end of list and same value(1) so order btw both reverts to original order*/
+.countries--second > .country--brazil {
+  order: 1;
+}
+.countries--second > .country--uganda {
+  order: 1;
+}
+
+.countries--third > .country--brazil {
+  order: 5;
+}
+.countries--third > .country--croatia {
+  order: 4;
+}
+.countries--third > .country--ethiopia {
+  order: 3;
+}
+.countries--third > .country--laos {
+  order: 2;
+}
+.countries--third > .country--uganda {
+  order: 1;
+}
