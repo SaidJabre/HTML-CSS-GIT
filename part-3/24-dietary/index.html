@@ -6,20 +6,27 @@
     <title>24 - Dietary Requirements - HTML, CSS and Git Exercises</title>
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/week3-forms.css" />
+    <link rel="stylesheet" href="flex-diet.css" />
   </head>
 
   <body>
     <div class="site-wrapper">
       <main>
         <h1>Codi Summit</h1>
-
-        <p>
+        <div>
           Let us know if you have any dietary requirements so that we can provide you with the best,
           yummy food.
-        </p>
-
+        </div>
+        <br />
         <form>
-          <!-- Your multiple choice goes here -->
+          <fieldset class="Diet">
+            <legend>Pleaase select your diatery requirements</legend>
+            <label> <input type="checkbox" id="Halal" /> Halal </label>
+            <label> <input type="checkbox" id="Kosher" /> Kosher </label>
+            <label> <input type="checkbox" id="Vegeterian" /> Vegeterian </label>
+            <label> <input type="checkbox" id="Vegan" /> Vegan </label>
+            <label> <input type="checkbox" id="Glut-Free" /> Gluten Free </label>
+          </fieldset>
           <button type="submit">Submit</button>
         </form>
       </main>
